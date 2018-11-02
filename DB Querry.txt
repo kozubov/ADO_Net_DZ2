@@ -1,0 +1,60 @@
+CREATE DATABASE Market
+GO
+
+USE Market
+GO
+
+CREATE TABLE Sellers
+(Id int NOT NULL PRIMARY KEY IDENTITY(1,1),
+FirstName NVARCHAR (30) NOT NULL,
+LastName NVARCHAR (30) NOT NULL)
+GO
+
+INSERT Sellers
+VALUES
+('Сергей','Сергеев'),
+('Дмитрий','Дмитриев'),
+('Степан','Степанов'),
+('Николай','Николаев'),
+('Анатолий','Анатолиев');
+
+CREATE TABLE Buyers
+(Id int NOT NULL PRIMARY KEY IDENTITY(1,1),
+FirstName nvarchar (30) NOT NULL,
+LastName nvarchar (30) NOT NULL,
+Account decimal NOT NULL,
+Purchases int NOT NULL)
+GO
+
+INSERT Buyers
+VALUES
+('Цветик','Семицветик',70000,0),
+('Василиса','Прекрасная',70000,0),
+('Царевна','Лягушка',70000,0),
+('Иван','Дурак',70000,0),
+('Василиса','Премудрая',70000,0);
+
+CREATE TABLE Fridges
+(Id int NOT NULL PRIMARY KEY IDENTITY(1,1),
+FridgeTM nvarchar(30) NOT NULL,
+Quantity int NOT NULL,
+Cost decimal NOT NULL)
+GO
+
+INSERT Fridges
+VALUES
+('LG',11, 7900),
+('Samsung',12, 8900),
+('Atlant',13, 5500),
+('Bosch',14, 13000),
+('Minsk',15, 7000);
+
+CREATE TABLE Checks
+(Id int NOT NULL PRIMARY KEY IDENTITY(1,1),
+DataSale date NOT NULL,
+IdBuyer int NOT NULL FOREIGN KEY REFERENCES Buyers(Id) ON DELETE CASCADE,
+IdSeller int NOT NULL FOREIGN KEY REFERENCES Sellers(Id) ON DELETE CASCADE,
+Fridges nvarchar(200) NOT NULL,
+TotalCount int NOT NULL,
+TotalCost decimal NOT NULL)
+GO

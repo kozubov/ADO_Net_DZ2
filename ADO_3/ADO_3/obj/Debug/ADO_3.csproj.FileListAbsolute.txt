@@ -1,0 +1,11 @@
+D:\999\ADO NET\ADO_3\ADO_3\ADO_3\ADO_3\bin\Debug\ADO_3.exe.config
+D:\999\ADO NET\ADO_3\ADO_3\ADO_3\ADO_3\bin\Debug\ADO_3.exe
+D:\999\ADO NET\ADO_3\ADO_3\ADO_3\ADO_3\bin\Debug\ADO_3.pdb
+D:\999\ADO NET\ADO_3\ADO_3\ADO_3\ADO_3\obj\Debug\ADO_3.Properties.Resources.resources
+D:\999\ADO NET\ADO_3\ADO_3\ADO_3\ADO_3\obj\Debug\ADO_3.csproj.GenerateResource.cache
+D:\999\ADO NET\ADO_3\ADO_3\ADO_3\ADO_3\obj\Debug\ADO_3.csproj.CoreCompileInputs.cache
+D:\999\ADO NET\ADO_3\ADO_3\ADO_3\ADO_3\obj\Debug\ADO_3.exe
+D:\999\ADO NET\ADO_3\ADO_3\ADO_3\ADO_3\obj\Debug\ADO_3.pdb
+D:\999\ADO NET\ADO_3\ADO_3\ADO_3\ADO_3\obj\Debug\ADO_3.Form1.resources
+D:\999\ADO NET\ADO_3\ADO_3\ADO_3\ADO_3\obj\Debug\ADO_3.Sell.resources
+D:\999\ADO NET\ADO_3\ADO_3\ADO_3\ADO_3\obj\Debug\ADO_3.csprojAssemblyReference.cache
